@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 12% 36% 12%;
+    gap: 10px;
+    border: solid red;
+    border-radius: 5px;
+   
+}
+.logo{
+    height: 93%;
+    width: auto;
+    border: black;
+}
+h1, h2{
+    text-align: center;
+    
+}
+header{
+    border: black;
+    grid-template-columns: 20% 75%;
+    border-radius: 5px;
+
+}
+main{
+    text-align:center;
+    border:solid black;
+    border-radius: 5px;
+}
+article{
+    text-align:center;
+    border:solid black;
+    margin: 5px;
+    border-radius: 5px;
+}
+footer{
+    text-align:center;
+    border:solid black;
+    border-radius: 5px;
+}
+nav,.logo,header{
+    text-align:center;
+    border:solid black;
+    border-radius: 5px;
+}
